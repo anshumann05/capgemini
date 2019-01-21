@@ -6,3 +6,15 @@ git commit -m "some message"
 git remote add origin https://github.com/anshumann05/capgemini.git
 git remote -v
 git push -u origin master
+
+
+using ssh:
+
+ssh-keygen -t rsa -b 4096 -C "anshuman.sh05@gmail.com"
+keep in mind the path where keygen will be stored
+for extra security enter any phrase
+key will be generated to the directory--> go to that directory --> copy everything
+now to github --> profile --> ssh --> paste the key
+
+now call command : 
+ssh -T git@github.com
