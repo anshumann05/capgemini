@@ -30,4 +30,25 @@ public class EmployeeDAO {
 			}
 		}
 	}
+	public Employee searchEmployeeDAO(Employee employee)
+	{
+		for (Employee emp : employeesList) {
+			if(emp.getId()==employee.getId())
+			{
+				return emp;
+			}
+		}
+		return null;
+	}
+	public void updateEmployeeDAO(Employee employee)
+	{
+		for(int i=0;i<employeesList.size();i++)
+		{
+			if(employeesList.get(i).getId()==employee.getId())
+			{
+				employeesList.remove(i);
+				employeesList.add(employee);
+			}
+		}
+	}
 }

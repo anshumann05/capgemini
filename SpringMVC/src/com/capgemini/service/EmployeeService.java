@@ -22,5 +22,13 @@ public class EmployeeService {
 	{
 		new EmployeeDAO().deleteEmployeeDAO(employee);
 	}
+	public Employee searchEmployeeService(Employee employee)
+	{
+		return new EmployeeDAO().searchEmployeeDAO(employee);
+	}
+	public void updateEmployeeService(Employee employee)
+	{
+		new EmployeeDAO().updateEmployeeDAO(employee);
+	}
 
 }

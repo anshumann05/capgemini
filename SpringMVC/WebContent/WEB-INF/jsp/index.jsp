@@ -11,7 +11,7 @@
 	<li>
 	<ul><a href="/SpringMVC/form" >Add employee</a></ul>
 	<ul><a href="/SpringMVC/display" >List all Employee</a></ul>
-	<ul><a href="" >Update employee employee</a></ul>
+	<ul><a href="/SpringMVC/update" >Update employee</a></ul>
 	<ul><a href="/SpringMVC/delete" >Delete employee</a></ul>
 	</li>
 </body>
