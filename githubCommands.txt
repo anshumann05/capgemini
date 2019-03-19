@@ -3,8 +3,11 @@ git config --global user.email "anshuman.sh05@gmail.com"
 git init
 git add <file1> <file2>
 git commit -m "some message"
+
+<!-- this step is used just for the first time -->
 git remote add origin https://github.com/anshumann05/capgemini.git
 git remote -v
+<!-- this step will be used every time a new commit will be done -->
 git push -u origin master
 
 
