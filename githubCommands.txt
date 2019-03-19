@@ -1,7 +1,7 @@
 git config --global user.name "anshumann05"
 git config --global user.email "anshuman.sh05@gmail.com"
 git init
-git add .
+git add <file1> <file2>
 git commit -m "some message"
 git remote add origin https://github.com/anshumann05/capgemini.git
 git remote -v
